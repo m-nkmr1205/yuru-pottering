@@ -1,24 +1,74 @@
-# README
+## アプリケーション名
+YURU POTTERING
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション概要
+ユーザー同士でグループライドを開催し参加者を募集する事が出来、チャット機能で他のユーザーとやりとりができるアプリ。
 
-Things you may want to cover:
+## URL
 
-* Ruby version
+## テスト用アカウント
+Basic認証パスワード：
+Basic認証ID：
+イベント開催者用 メールアドレス：
+イベント開催者用 パスワード：
+イベント参加者用 メールアドレス：
+イベント参加者用 パスワード：
 
-* System dependencies
+## 利用方法
 
-* Configuration
+### イベント開催
+1. トップページのヘッダーから新規登録を行う
+2. 新規投稿ボタンから、イベントの内容を入力する
+   (イベントタイトル、開催日時、開催地域、集合場所、イベントカテゴリ、車種、走行距離) 
+3. 入力が完了したら開催ボタンをクリックする
 
-* Database creation
+### イベント参加
+1. ヘッダーからログインを行う
+2. イベント一覧で参加したいイベントをクリックする
+3. イベント詳細画面の参加ボタンをクリックする
 
-* Database initialization
+### コメント機能
+1. ヘッダー部からログインを行う
+2. イベント詳細画面にあるチャットフォームを入力する
+3. 送信ボタンをクリックする
 
-* How to run the test suite
+## アプリーションを作成した背景
+ペルソナ：女性、30代、会社員、サイクリングが趣味でレース寄りではなくグルメライドを好む  
+週末にサイクリングをしようと思うが一緒に付き合ってくれる人がおらず、結果一人では億劫になってしまい行動に移す事が出来ないといった悩みがあった。
+ロードバイクだと男性が多く、レース志向が強い事や体力的についていけない事があり、女性同士でお洒落なカフェで美味しいご飯を目的にポタリング出来る様な仲間が欲しいと考えた。  
+また、ミニベロやMTBといった自転車の種類によっても趣向や巡航速度が変わってくるため、自転車のカテゴリー別に集まれる様なコミュニティーが欲しいと考えた。
 
-* Services (job queues, cache servers, search engines, etc.)
+## 洗い出した要件
+https://docs.google.com/spreadsheets/d/11bIM8w9kbu4FFMg27e0qrR1HaxQXnptOvvQ9-bjPBII/edit#gid=1785908763
 
-* Deployment instructions
+## 実装した機能についての画像やGIFおよびその説明
 
-* ...
+## 実装予定の機能
+地域ごとにイベントを検索できる機能を検討中  
+マイページにて画像投稿、画像のコメント投稿機能を追加で検討中  
+地図でルートを確認できる機能を検討中  
+
+## データベース設計
+[![Image from Gyazo](https://i.gyazo.com/8cea44b899cea5a0b88f89acd74f9d12.png)](https://gyazo.com/8cea44b899cea5a0b88f89acd74f9d12)
+
+## 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/1d722a3722c7fcced0a7e9240cf73bb4.png)](https://gyazo.com/1d722a3722c7fcced0a7e9240cf73bb4)
+
+## 開発環境
+* フロントエンド：HTML&CSS / JavaScript 
+* バックエンド：Ruby / Ruby on Rails
+* テスト：RSpec
+* テキストエディタ：Visual Studio Code
+* タスク管理：GitHubプロジェクトボード
+
+## ローカルでの動作方法
+以下のコマンド順に実行
+
+％  
+％  
+％  
+％  
+## 工夫したポイント
+車種やカテゴリーを分ける事で目的にあったイベントを選択出来る様にした。
+女性ユーザー獲得のために可愛らしいが主張しすぎないデザインを検討中
+
